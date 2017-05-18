@@ -152,7 +152,7 @@
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(309, 34);
             this.button10.TabIndex = 10;
-            this.button10.Text = "Limpar";
+            this.button10.Text = "Limparteste";
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
@@ -160,7 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.ClientSize = new System.Drawing.Size(366, 442);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.label1);
@@ -173,6 +173,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.Name = "Form1";
             this.Text = "Jogo da Velha";
             this.Load += new System.EventHandler(this.Form1_Load);
